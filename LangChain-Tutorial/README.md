@@ -11,7 +11,7 @@ LangChain은 LLM (Large Language Models) 기반 애플리케이션을 쉽고 효
 
 ```
 LangChain-Tutorial/
-│── 00-Introduction/      # LangChain 기본 개념 및 설치
+│── 00-LangChainBasic/      # LangChain 기본 문법 맛보기
 │── 01-Chain/             # LangChain Chains 기본 요소
 │── 02-Memory/            # 대화 상태 및 메모리 활용
 │── 03-DocumentLoader/    # 다양한 형태의 Docuement 로드
