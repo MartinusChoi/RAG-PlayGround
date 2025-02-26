@@ -12,15 +12,17 @@ LangChain은 LLM (Large Language Models) 기반 애플리케이션을 쉽고 효
 ```
 LangChain-Tutorial/
 │── 00-Introduction/      # LangChain 기본 개념 및 설치
-│── 01-PromptEngineering/ # 프롬프트 엔지니어링 기법
-│── 02-Chains/            # LangChain Chains 개념 및 활용
-│── 03-Memory/            # 대화 상태 및 메모리 활용
-│── 04-Agents/            # LangChain Agents 이해 및 실습
-│── 05-Tools/             # LangChain에서 제공하는 다양한 도구 활용
-│── 06-VectorStores/      # 벡터 저장소 및 검색 기능 활용
-│── 07-LLMEvaluation/     # LLM 평가 및 디버깅 방법
-│── 08-Applications/      # LangChain을 활용한 실제 프로젝트 예제
-│── requirements.txt      # 프로젝트 실행에 필요한 패키지 목록
+│── 01-Chain/             # LangChain Chains 기본 요소
+│── 02-Memory/            # 대화 상태 및 메모리 활용
+│── 03-DocumentLoader/    # 다양한 형태의 Docuement 로드
+│── 04-RAG/               # LangChaind을 활용한 RAG 개념 및 실습습
+│── 05-PreDefinedChain/   # 사전에 정의된 체인 (Stuff, Map Reduce 등)
+│── 06-AdvancedLCEL/      # LCEL 고급 문법 (RunnableLambda 등)
+│── 07-RAGEvaluation/     # RAG 평가 및 개선 방법
+│── 08-Agent/             # LangChain을 활용한 Agent 개념과 활용
+│── 09-LangGraph/         # LangGraph의 기본 개념과 활용
+│── 10-LangServe/         # LangServe를 활용한 모델 서빙
+│── requirements.txt      # 실행에 필요한 패키지 목록
 │── README.md             # 리포지토리 소개 및 가이드
 ```
 
@@ -42,30 +44,10 @@ pip install -r requirements.txt
 LangChain을 설치하려면 다음 명령어를 실행하세요.
 
 ```bash
-pip install langchain openai
+pip install langchain langchain-openai
 ```
 
 또한, 특정 실습에서는 추가적인 패키지가 필요할 수 있습니다. 필요 시 `requirements.txt`를 업데이트하여 설치하세요.
-
-## 🏗 학습 내용
-
-### 📌 1. LangChain 기본 개념 익히기
-- LangChain이란 무엇인가?
-- 핵심 개념 (Prompt Templates, Chains, Memory, Agents 등)
-- 간단한 예제 실습
-
-### 📌 2. 주요 기능 학습 및 실습
-- **Prompt Engineering:** 효과적인 프롬프트 작성 방법
-- **Chains:** LLM과의 인터랙션을 관리하는 체인 구성
-- **Memory:** 대화형 애플리케이션을 위한 메모리 활용
-- **Agents:** 동적 태스크 수행을 위한 LangChain Agents
-- **VectorStores:** 문서 검색 및 RAG (Retrieval-Augmented Generation) 구현
-- **LLM 평가:** 모델 성능을 평가하고 디버깅하는 방법
-
-### 📌 3. 실제 프로젝트 구현
-- LLM 기반 챗봇 만들기
-- PDF 및 문서 요약 시스템 구축
-- LangChain을 활용한 데이터 분석 및 자동화
 
 ## 🔗 참고 자료
 - [LangChain 공식 문서](https://python.langchain.com/docs/introduction/)
