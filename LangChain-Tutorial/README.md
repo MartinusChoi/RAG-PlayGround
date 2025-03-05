@@ -22,7 +22,7 @@ LangChain-Tutorial/
 │── 08-Agent/             # LangChain을 활용한 Agent 개념과 활용
 │── 09-LangGraph/         # LangGraph의 기본 개념과 활용
 │── 10-LangServe/         # LangServe를 활용한 모델 서빙
-│── 11-Projects/          # 실습 미니 프로젝트
+│── 99-Projects/          # 실습 미니 프로젝트
 │── requirements.txt      # 실행에 필요한 패키지 목록
 │── README.md             # 리포지토리 소개 및 가이드
 ```
