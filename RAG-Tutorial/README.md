@@ -3,19 +3,19 @@
 </p>
 
 ## 📖 소개
-LangChain은 LLM (Large Language Models) 기반 애플리케이션을 쉽고 효율적으로 구축할 수 있도록 돕는 프레임워크입니다. 이 리포지토리는 LangChain의 핵심 개념을 단계적으로 학습하고, 실습을 통해 개념을 이해하는 것을 목표로 합니다.
+LangChain은 LLM (Large Language Models) 기반 애플리케이션을 쉽고 효율적으로 구축할 수 있도록 돕는 프레임워크입니다. 이 리포지토리는 LangChain의 핵심 개념을 단계적으로 학습하고, 실습을 통해 RAG의 개념을 이해하는 것을 목표로 합니다.
 
-이 저장소에서는 **LangChain의 주요 기능**과 **실제 활용 예제**를 다루며, 각 주제별 폴더에 코드와 설명을 정리합니다.
+이 저장소에서는 **LangChain의 주요 기능**과 **RAG의 개념 및 실제 활용 예제**를 다루며, 각 주제별 폴더에 코드와 설명을 정리합니다.
 
 ## 📂 폴더 구조
 
 ```
-LangChain-Tutorial/
+RAG-Tutorial/
 │── 00-LangChainBasic/    # LangChain 기본 문법 맛보기
 │── 01-Chain/             # LangChain Chains 기본 요소
 │── 02-Memory/            # 대화 상태 및 메모리 활용
 │── 03-DocumentLoader/    # 다양한 형태의 Docuement 로드
-│── 04-RAG/               # LangChaind을 활용한 RAG 개념 및 실습습
+│── 04-RAG/               # LangChaind을 활용한 RAG 개념 및 실습
 │── 05-PreDefinedChain/   # 사전에 정의된 체인 (Stuff, Map Reduce 등)
 │── 06-AdvancedLCEL/      # LCEL 고급 문법 (RunnableLambda 등)
 │── 07-RAGEvaluation/     # RAG 평가 및 개선 방법
