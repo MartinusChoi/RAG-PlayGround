@@ -1,0 +1,26 @@
+modules:
+  # pdf
+  - module_type: langchain_parse
+    file_type: pdf
+    parse_method: pdfminer
+  # csv
+  - module_type: langchain_parse
+    file_type: csv
+    parse_method: csv
+  # json
+  - module_type: langchain_parse
+    file_type: json
+    parse_method: json
+    jq_schema: .content # json 스키마에서 실제 파싱할 값이 어디에 존재하는 지 언급
+  # markdown
+  - module_type: langchain_parse
+    file_type: markdown
+    parse_method: unstructuredmarkdown
+  # html
+  - module_type: langchain_parse
+    file_type: html
+    parse_method: bshtml
+  # xml
+  - module_type: langchain_parse
+    file_type: xml
+    parse_method: unstructuredxml
