@@ -1,0 +1,3 @@
+filename,module_name,module_params,execution_time
+pdf.parquet,langchain_parse,"{'file_type': 'pdf', 'parse_method': 'pdfplumber'}",0.03627171299674294
+pdf.parquet,langchain_parse,"{'file_type': 'pdf', 'parse_method': 'pymupdf'}",0.003428938713940707
